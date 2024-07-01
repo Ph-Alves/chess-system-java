@@ -18,7 +18,17 @@ public class Position {
         return row;
     }
 
+    public int setRow(int row) {
+        this.row = row;
+        return row;
+    }
+
     public int getColumn() {
+        return column;
+    }
+
+    public int setColumn(int column) {
+        this.column = column;
         return column;
     }
     
