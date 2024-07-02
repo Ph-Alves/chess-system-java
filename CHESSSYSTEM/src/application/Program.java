@@ -1,11 +1,11 @@
-package chessSystem.application;
+package src.application;
 
 import java.util.Scanner;
 
-import chessSystem.chess.ChessException;
-import chessSystem.chess.ChessMatch;
-import chessSystem.chess.ChessPiece;
-import chessSystem.chess.ChessPosition;
+import src.chess.ChessException;
+import src.chess.ChessMatch;
+import src.chess.ChessPiece;
+import src.chess.ChessPosition;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
@@ -31,6 +31,7 @@ public class Program {
                 System.out.print("Target: ");
                 ChessPosition target = UI.readChessPosition(sc);
 
+                @SuppressWarnings("unused")
                 ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
             } catch (ChessException e){
                 System.out.println(e.getMessage());

@@ -1,9 +1,9 @@
-package chessSystem.chess.pieces;
+package src.chess.pieces;
 
-import chessSystem.boardgame.Board;
-import chessSystem.boardgame.Position;
-import chessSystem.chess.ChessPiece;
-import chessSystem.chess.Color;
+import src.boardgame.Board;
+import src.boardgame.Position;
+import src.chess.ChessPiece;
+import src.chess.Color;
 
 public class Rook extends ChessPiece{
 

@@ -1,8 +1,8 @@
-package chessSystem.chess;
+package src.chess;
 
-import chessSystem.boardgame.Board;
-import chessSystem.boardgame.Piece;
-import chessSystem.boardgame.Position;
+import src.boardgame.Board;
+import src.boardgame.Piece;
+import src.boardgame.Position;
 
 public abstract class ChessPiece extends Piece{
 

@@ -1,11 +1,11 @@
-package chessSystem.application;
+package src.application;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import chessSystem.chess.ChessPiece;
-import chessSystem.chess.ChessPosition;
-import chessSystem.chess.Color;
+import src.chess.ChessPiece;
+import src.chess.ChessPosition;
+import src.chess.Color;
 
 public class UI {
 

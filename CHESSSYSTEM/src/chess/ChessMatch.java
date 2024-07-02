@@ -1,10 +1,10 @@
-package chessSystem.chess;
+package src.chess;
 
-import chessSystem.boardgame.Board;
-import chessSystem.boardgame.Piece;
-import chessSystem.boardgame.Position;
-import chessSystem.chess.pieces.King;
-import chessSystem.chess.pieces.Rook;
+import src.boardgame.Board;
+import src.boardgame.Piece;
+import src.boardgame.Position;
+import src.chess.pieces.King;
+import src.chess.pieces.Rook;
 
 public class ChessMatch {
 
